@@ -133,12 +133,12 @@ margin-right: 10px;
   height: 100%;
   width: 100%;
   opacity: 0;
-  transition: .1s ease;
+  transition: .5s ease;
   background-color:hsl(178, 100%, 50%,60%) ;
 }
 
 /* When you mouse over the container, fade in the overlay icon*/
-.container:hover .overlay {
+.overlay:hover {
   opacity: 1;
   cursor: pointer;
 }
